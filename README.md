@@ -2,7 +2,7 @@
 <a href="#BST">Binary Tree</a>
 
 <a name="BST"></a>
-## BST Problems
+## Binary Tree Problems
 <table>
 <thead>
   <tr>
