@@ -17,7 +17,7 @@
       <td> 173 </td>
       <td><a href="https://leetcode.com/problems/binary-search-tree-iterator/"> Binary Search Tree Iterator </a></td>
       <td> Medium </td>
-      <td><a href="https://github.com/amylittleyang/leetCode">Java</a></td>
+      <td><a href="https://github.com/amylittleyang/leetCode/blob/master/BSTInterator.md">Java</a></td>
     </tr>
 </tbody>
 </table>
