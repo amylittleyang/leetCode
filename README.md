@@ -26,6 +26,18 @@
       <td> Medium </td>
       <td><a href="https://github.com/amylittleyang/leetCode/blob/master/BSTRightSideView.md"> Java </a></td>
     </tr>
+     <tr>
+      <td> 230 </td>
+      <td><a href="https://leetcode.com/problems/kth-smallest-element-in-a-bst/">kth Smallest Element in a BST</a></td>
+      <td> Medium </td>
+      <td><a href="https://github.com/amylittleyang/leetCode/blob/master/kthSmallestElementInBST.md"> Java </a></td>
+    </tr>
+    <tr>
+      <td> 222 </td>
+      <td><a href="https://leetcode.com/problems/count-complete-tree-nodes/">Count Complete Tree Nodes</a></td>
+      <td> Medium </td>
+      <td><a href="https://github.com/amylittleyang/leetCode/blob/master/CountCompleteTreeNodes.md"> Java </a></td>
+    </tr>
 </tbody>
 </table>
 
