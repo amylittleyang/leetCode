@@ -54,6 +54,12 @@
 </thead>
 <tbody>
     <tr>
+      <td> 82 </td>
+      <td><a href="https://leetcode.com/problems/partition-list/"> Partition List </a></td>
+      <td> Medium </td>
+      <td><a href="https://github.com/amylittleyang/leetCode/blob/master/PartitionList.md">Java</a></td>
+    </tr>
+    <tr>
       <td> 328 </td>
       <td><a href="https://leetcode.com/problems/odd-even-linked-list/"> Odd Even Linked List </a></td>
       <td> Medium </td>
