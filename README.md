@@ -1,6 +1,7 @@
 # Solution to LeetCode problems
 <a href="#BST">Binary Tree</a>    
-<a href="#LinkedList">Linked List</a>
+<a href="#LinkedList">Linked List</a>   
+<a href="#Array">Array</a>
 
 <a name="BST"></a>
 ## Binary Tree Problems
@@ -65,6 +66,27 @@
       <td> Medium </td>
       <td><a href="https://github.com/amylittleyang/leetCode/blob/master/OddEvenLinkedList.md">Java</a></td>
     </tr>
+</tbody>
+</table>
+
+<a name="array"></a>
+## Array
+<table>
+<thead>
+  <tr>
+    <th> Number </th>
+    <th> Problem </th>
+    <th> Difficulty </th>
+    <th> Solution </th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>238</td>
+    <td><a href="https://leetcode.com/problems/product-of-array-except-self/">Product of array except self</a></td>
+    <td>Medium</td>
+    <td><a href="https://github.com/amylittleyang/leetCode/blob/master/OddEvenLinkedList.md">Java</a></td>
+  </tr>
 </tbody>
 </table>
 
