@@ -87,6 +87,12 @@
     <td>Medium</td>
     <td><a href="https://github.com/amylittleyang/leetCode/blob/master/OddEvenLinkedList.md">Java</a></td>
   </tr>
+  <tr>
+    <td>75</td>
+    <td><a href="https://leetcode.com/problems/sort-colors/">Sort Colors</a></td>
+    <td>Medium</td>
+    <td><a href="https://github.com/amylittleyang/leetCode/blob/master/SortColor.md">Java</a></td>
+  </tr>
 </tbody>
 </table>
 
