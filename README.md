@@ -69,7 +69,7 @@
 </tbody>
 </table>
 
-<a name="array"></a>
+<a name="Array"></a>
 ## Array
 <table>
 <thead>
