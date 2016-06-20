@@ -93,6 +93,12 @@
     <td>Medium</td>
     <td><a href="https://github.com/amylittleyang/leetCode/blob/master/SortColor.md">Java</a></td>
   </tr>
+  <tr>
+    <td>88</td>
+    <td><a href="https://leetcode.com/problems/merge-sorted-array/">Merge Sorted Array</a></td>
+    <td>Easy</td>
+    <td><a href="https://github.com/amylittleyang/leetCode/blob/master/MergeSortedArray.md">Java</a></td>
+  </tr>
 </tbody>
 </table>
 
