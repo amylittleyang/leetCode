@@ -99,6 +99,12 @@
     <td>Easy</td>
     <td><a href="https://github.com/amylittleyang/leetCode/blob/master/MergeSortedArray.md">Java</a></td>
   </tr>
+  <tr>
+    <td>374</td>
+    <td><a href="https://leetcode.com/problems/guess-number-high-or-low/">Guess Number High or Low</a></td>
+    <td>Easy</td>
+    <td><a href="https://github.com/amylittleyang/leetCode/blob/master/guessNumberHighOrLow.md">Java</a></td>
+  </tr>
 </tbody>
 </table>
 
