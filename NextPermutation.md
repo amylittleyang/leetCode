@@ -12,24 +12,7 @@ Here are some examples. Inputs are in the left-hand column and its corresponding
 <code>1,1,5 → 1,5,1</code>   <br>
 
 ### Solution
-To generate the next permutation lexicongraphically, we traverse <code>nums</code> from the least significant digit to the most significant digit. 
- If we find some index such that <code>nums[index] < nums[index+1]</code>, then permuting the subarray <code>nums[index, end]</code> and concatenating it with 
- <code>nums[0,index]</code> should give the next permutation.    
- <br>
- Therefore the problem becomes permuting <code>nums[index,end]</code> to be the next greater permutation.   
- <br>
- For example let <code>nums = [3,2,2,6,3,3,2,2,1]</code>. The next permutation will be <code>[3,2] + nextGreaterPermutation([2,6,3,3,2,2,1])</code>.   
- <br>
- To permute the subarray <code>nums[index,end]</code> in-place, the only operation allowed is swapping indices. 
- <br>We have a nice property: the subarray <code>nums[index+1,end]</code> monotonically decreases. Since <code>index</code> is the first decrease when we traverse the array from right to left,
-  all elements to its right must be decreasing. For example <code>nums = [3,2,2,6,3,3,2,2,1]</code>, <code>index=2</code>, and the subarray [6,3,3,2,2,1] decreases.   
-  <br>
-  Using this property, we can easily find the next greater permutation of the subarray.    <br>
-  Simply reverse the subarray <code>nums[index+1,end]</code> and swap <code>nums[index]</code> with the smallest element in <code>nums[index+1,end]</code> greater than it.    
-  <br>
-  In the above example, we first reverse [3,2,2,<b>6,3,2,2,1</b>] to
-    [3,2,2,<b>1,2,2,3,3,6</b>]. Then swap the 2 with 3 [3,2,<b>2</b>,1,2,2,<b>3</b>,3,6] to get the next permutation [3,2,3,1,2,2,2,3,6].
-
+In-place O(n) solution.
 ``` java
     public void nextPermutation(int[] nums) {
         int reorderFrom = -1;
@@ -69,3 +52,22 @@ To generate the next permutation lexicongraphically, we traverse <code>nums</cod
         }
     }
 ```
+
+To generate the next permutation lexicongraphically, we traverse <code>nums</code> from the least significant digit to the most significant digit. 
+ If we find some index such that <code>nums[index] < nums[index+1]</code>, then permuting the subarray <code>nums[index, end]</code> and concatenating it with 
+ <code>nums[0,index]</code> should give the next permutation.    
+ <br>
+ Therefore the problem becomes permuting <code>nums[index,end]</code> to be the next greater permutation.   
+ <br>
+ For example let <code>nums = [3,2,2,6,3,3,2,2,1]</code>. The next permutation will be <code>[3,2] + nextGreaterPermutation([2,6,3,3,2,2,1])</code>.   
+ <br>
+ To permute the subarray <code>nums[index,end]</code> in-place, the only operation allowed is swapping indices. 
+ <br>We have a nice property: the subarray <code>nums[index+1,end]</code> monotonically decreases. Since <code>index</code> is the first decrease when we traverse the array from right to left,
+  all elements to its right must be decreasing. For example <code>nums = [3,2,2,6,3,3,2,2,1]</code>, <code>index=2</code>, and the subarray [6,3,3,2,2,1] decreases.   
+  <br>
+  Using this property, we can easily find the next greater permutation of the subarray.    <br>
+  Simply reverse the subarray <code>nums[index+1,end]</code> and swap <code>nums[index]</code> with the smallest element in <code>nums[index+1,end]</code> greater than it.    
+  <br>
+  In the above example, we first reverse [3,2,2,<b>6,3,2,2,1</b>] to
+    [3,2,2,<b>1,2,2,3,3,6</b>]. Then swap the 2 with 3 [3,2,<b>2</b>,1,2,2,<b>3</b>,3,6] to get the next permutation [3,2,3,1,2,2,2,3,6].
+
