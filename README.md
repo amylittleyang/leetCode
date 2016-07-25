@@ -105,6 +105,12 @@
     <td>Easy</td>
     <td><a href="https://github.com/amylittleyang/leetCode/blob/master/guessNumberHighOrLow.md">Java</a></td>
   </tr>
+  <tr>
+    <td>31</td>
+    <td><a href="https://leetcode.com/problems/next-permutation/">Next Permutation</a></td>
+    <td>Medium</td>
+    <td><a href="https://github.com/amylittleyang/leetCode/blob/master/NextPermutation.md">Java</a></td>
+  </tr>
 </tbody>
 </table>
 
