@@ -39,6 +39,12 @@
       <td> Medium </td>
       <td><a href="https://github.com/amylittleyang/leetCode/blob/master/CountCompleteTreeNodes.md"> Java </a></td>
     </tr>
+    <tr>
+      <td> 96 </td>
+      <td><a href="https://leetcode.com/problems/unique-binary-search-trees/">Unique Binary Search Trees</a></td>
+      <td> Medium </td>
+      <td><a href="https://github.com/amylittleyang/leetCode/blob/master/UniqueBinarySearchTrees.md"> Java </a></td>
+    </tr>
 </tbody>
 </table>
 
