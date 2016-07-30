@@ -72,6 +72,12 @@
       <td> Medium </td>
       <td><a href="https://github.com/amylittleyang/leetCode/blob/master/OddEvenLinkedList.md">Java</a></td>
     </tr>
+    <tr>
+      <td> 138 </td>
+      <td><a href="https://leetcode.com/problems/copy-list-with-random-pointer/"> Copy List with Random Pointer </a></td>
+      <td> Hard </td>
+      <td><a href="https://github.com/amylittleyang/leetCode/blob/master/CopyListWithRandomPointer.md">Java</a></td>
+    </tr>
 </tbody>
 </table>
 
