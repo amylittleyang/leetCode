@@ -45,6 +45,11 @@
       <td> Medium </td>
       <td><a href="https://github.com/amylittleyang/leetCode/blob/master/UniqueBinarySearchTrees.md"> Java </a></td>
     </tr>
+    <td> 98 </td>
+      <td><a href="https://leetcode.com/problems/validate-binary-search-tree/">Validate Binary Search Trees</a></td>
+      <td> Medium </td>
+      <td><a href="https://github.com/amylittleyang/leetCode/blob/master/ValidateBinarySearchTree.md"> Java </a></td>
+    </tr>
 </tbody>
 </table>
 
